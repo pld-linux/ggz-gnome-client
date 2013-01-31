@@ -32,7 +32,6 @@ Ten pakiet to klient GGZ dla środowiska GNOME.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
